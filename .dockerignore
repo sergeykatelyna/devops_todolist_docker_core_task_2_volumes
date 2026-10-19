@@ -1,0 +1,55 @@
+
+# Git
+.git/
+.gitignore
+
+# Docker configuration
+.dockerignore
+Dockerfile.mysql
+
+# Python bytecode and caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment files and local secrets
+.env
+.env.*
+
+# Local databases
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# Django-generated files and uploads
+*.log
+local_settings.py
+media/
+staticfiles/
+
+# Test and coverage artifacts
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Documentation not needed inside the application image
+INSTRUCTION.md
+README.md
